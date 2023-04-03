@@ -26,7 +26,7 @@ jobs:
       - name: List
         run: |
             echo "listing files in the QuicK-mer2_human_rarity_determination directory"
-            ls QuicK-mer2_human_rarity_determination
+            ls qm2_human_rarity
       # a custom step that runs R code
       - name: Greet
         run: print("Hello, world!")
