@@ -14,7 +14,7 @@ on:
 
 # independent jobs in the workflow
 jobs:
-  # this workflow just has one job called "greet"
+  # this workflow just has one job called "greet ha"
   greet:
     # the operating system to use for this workflow
     runs-on: ubuntu-latest
