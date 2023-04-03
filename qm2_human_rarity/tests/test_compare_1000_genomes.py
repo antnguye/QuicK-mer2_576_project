@@ -1,5 +1,4 @@
 from qm2_human_rarity import compare_against_1000
-import numpy as np
 
 test_file = "qm2_human_rarity/DM09_subset.qm2.bed"
 output_table, output_dict = compare_against_1000.read_in_qm2(test_file, False)

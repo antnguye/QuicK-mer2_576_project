@@ -1,7 +1,4 @@
 from qm2_human_rarity import compare_against_1000
-import numpy as np
-import os.path
-import pytest
 
 
 def test_read_in_qm2_real_subset():
