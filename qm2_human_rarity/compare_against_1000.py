@@ -187,6 +187,8 @@ def compare_1000_genomes(sample_dict, normalcy_file_path, final_dups=None,
     del_normal_bool = {}
     if final_dups is not None:
         for dup in final_dups:
+            if dup[0][0] >= 2297329 or dup[0][1] >= 2297329:
+                break
             cn_list = []
             dup_windows = []
             for window in dup:
@@ -203,6 +205,8 @@ def compare_1000_genomes(sample_dict, normalcy_file_path, final_dups=None,
                 dup_normal_bool[sample_dup_str] = False
     if final_dels is not None:
         for dele in final_dels:
+            if dele[0][0] >= 2297329 or dele[0][1] >= 2297329:
+                break
             cn_list = []
             del_windows = []
             for window in dele:
