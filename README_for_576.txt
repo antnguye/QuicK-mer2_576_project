@@ -34,3 +34,5 @@ Follow the tutorial_notebook.ipynb for additional details for processing DM09_su
 	- Deletions are produced by Step 4; this is optional, can do just duplications
 	- sample_name is an optional name, defaults to "sample"; can pass "DM09_subset" as the sample name
 	- This function will write two files, sample_name_duplications.bed and sample_name_deletions.bed 
+
+[![CI](https://github.com/antnguye/QuicK-mer2_human_rarity_determination/actions/workflows/ci.yml/badge.svg)](https://github.com/antnguye/QuicK-mer2_human_rarity_determination/actions/workflows/ci.yml)
