@@ -1,3 +1,5 @@
+[![CI](https://github.com/antnguye/QuicK-mer2_human_rarity_determination/actions/workflows/ci.yml/badge.svg)](https://github.com/antnguye/QuicK-mer2_human_rarity_determination/actions/workflows/ci.yml)
+
 A tutorial for running the QuicK-mer2 Human Rarity Extension
 
 -A sample file has been provided: DM09_subset.qm2.bed in the qm2_human_rarity folder
